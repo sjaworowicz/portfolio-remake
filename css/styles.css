@@ -1,3 +1,31 @@
 h1 {
     background-color: #28282A;
   }
+
+  body {
+    background-color: #28282A;
+  }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        display: inline;
+      }
+
+      li a {
+  display: flex;
+  padding: 8px;
+  background-color: #515151;
+  color: #AAAAB1;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
