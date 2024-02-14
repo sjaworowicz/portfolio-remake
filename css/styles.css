@@ -1,10 +1,6 @@
-h1 {
-    background-color: #28282A;
-  }
-
-  body {
-    background-color: #28282A;
-  }
+body {
+  background-color: #28282A;
+}
 
       ul {
         list-style-type: none;
@@ -17,15 +13,20 @@ h1 {
       }
 
       li a {
-  display: flex;
-  padding: 8px;
-  background-color: #515151;
-  color: #AAAAB1;
+display: block;
+padding: 8px;
+background-color: #515151;
+color: #AAAAB1;
 }
 
-.navbar {
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  display: flex;
+.h1 {
+  text-align: left;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.h3 {
+  text-align: right;
 }
